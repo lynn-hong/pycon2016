@@ -2,7 +2,7 @@ language: python
 python:
   - "3.4"
 # command to install dependencies
-install: "sudo pip3 install -q -U setuptools tox"
+install: "pip3 install -q -U setuptools tox"
     
 # command to run tests
 script: tox
