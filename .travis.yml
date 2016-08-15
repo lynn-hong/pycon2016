@@ -10,3 +10,7 @@ script: tox
 after_success:
     coveralls
 sudo: required
+
+[testenv]
+deps=coverage
+commands=coverage run -a manage.py test
