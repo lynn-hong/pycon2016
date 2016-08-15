@@ -1,0 +1,17 @@
+setup.py
+template_korean.egg-info/PKG-INFO
+template_korean.egg-info/SOURCES.txt
+template_korean.egg-info/dependency_links.txt
+template_korean.egg-info/pbr.json
+template_korean.egg-info/requires.txt
+template_korean.egg-info/top_level.txt
+template_kr/__init__.py
+template_kr/admin.py
+template_kr/apps.py
+template_kr/models.py
+template_kr/settings.py
+template_kr/tests.py
+template_kr/views.py
+template_kr/migrations/__init__.py
+template_kr/templatetags/__init__.py
+template_kr/templatetags/proofread.py
