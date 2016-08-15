@@ -1,0 +1,8 @@
+language: python
+python:
+  - "3.4"
+# command to install dependencies
+install: "pip3 install -q -U pip3 setuptools tox"
+    
+# command to run tests
+script: tox
