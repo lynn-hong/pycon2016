@@ -2,9 +2,11 @@ language: python
 python:
   - "3.4"
 # command to install dependencies
-install: "pip3 install -q -U setuptools tox coveralls"
+install: 
+  - "pip3 install -q -U setuptools tox coveralls"
     
 # command to run tests
 script: tox
 after_success:
     coveralls
+sudo: required
