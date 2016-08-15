@@ -3,7 +3,7 @@ python:
   - "3.4"
 # command to install dependencies
 install: 
-  - pip3 install -q -U setuptools tox
+  - pip3 install -q -U setuptools tox coverage
     
 # command to run tests
 script: tox
