@@ -3,14 +3,10 @@ python:
   - "3.4"
 # command to install dependencies
 install: 
-  - "pip3 install -q -U setuptools tox coveralls"
+  - pip3 install -q -U setuptools tox
     
 # command to run tests
 script: tox
 after_success:
-    coveralls
+  - bash <(curl -s https://codecov.io/bash)
 sudo: required
-
-[testenv]
-deps=coverage
-commands=coverage run -a manage.py test
